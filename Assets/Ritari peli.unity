@@ -891,6 +891,7 @@ GameObject:
   - component: {fileID: 493751560}
   - component: {fileID: 493751561}
   - component: {fileID: 493751562}
+  - component: {fileID: 493751563}
   m_Layer: 0
   m_Name: Ritari
   m_TagString: Player
@@ -1047,6 +1048,18 @@ MonoBehaviour:
   pickupKey: 98
   dropKey: 98
   pickUpDistance: 2
+--- !u!114 &493751563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 493751555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb970c45b40bb4652a8310660a03dfb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
 --- !u!1 &510083525
 GameObject:
   m_ObjectHideFlags: 0
@@ -1158,6 +1171,7 @@ GameObject:
   - component: {fileID: 518397167}
   - component: {fileID: 518397166}
   - component: {fileID: 518397165}
+  - component: {fileID: 518397170}
   m_Layer: 0
   m_Name: Haamu
   m_TagString: Untagged
@@ -1296,6 +1310,18 @@ Transform:
   m_Father: {fileID: 1665428497}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &518397170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 518397164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthChange: -1
 --- !u!1 &580335123
 GameObject:
   m_ObjectHideFlags: 0
@@ -2142,6 +2168,7 @@ GameObject:
   - component: {fileID: 973431669}
   - component: {fileID: 973431668}
   - component: {fileID: 973431667}
+  - component: {fileID: 973431671}
   m_Layer: 0
   m_Name: Robotti sininen
   m_TagString: Untagged
@@ -2270,6 +2297,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &973431671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 973431665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthChange: -2
 --- !u!1 &989934767
 GameObject:
   m_ObjectHideFlags: 0
@@ -2573,6 +2612,7 @@ GameObject:
   - component: {fileID: 1343201807}
   - component: {fileID: 1343201806}
   - component: {fileID: 1343201805}
+  - component: {fileID: 1343201809}
   m_Layer: 0
   m_Name: Haamu2
   m_TagString: Untagged
@@ -2711,6 +2751,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1343201809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1343201803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthChange: -1
 --- !u!1 &1376016355
 GameObject:
   m_ObjectHideFlags: 0
@@ -2994,6 +3046,7 @@ GameObject:
   - component: {fileID: 1656948397}
   - component: {fileID: 1656948396}
   - component: {fileID: 1656948395}
+  - component: {fileID: 1656948399}
   m_Layer: 0
   m_Name: Robotti sininen2
   m_TagString: Untagged
@@ -3122,6 +3175,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1656948399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1656948393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthChange: -2
 --- !u!1 &1665428496
 GameObject:
   m_ObjectHideFlags: 0
