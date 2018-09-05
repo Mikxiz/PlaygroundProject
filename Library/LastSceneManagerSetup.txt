@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Ritari peli.unity
+  isLoaded: 1
+  isActive: 1
